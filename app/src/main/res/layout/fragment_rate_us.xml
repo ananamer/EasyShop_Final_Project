@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".selected_action_activity_fragments.RateUs"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/upper_section"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rating"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Let us know how\nwe’re doing!"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="we are always trying to improve\nwhat we do and your feedback\nis invaluable!"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lower_section"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:backgroundTint="#F6CE6A"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RatingBar
+            android:id="@+id/star1_rating_bar"
+            style="@style/CustomRatingBarStyle"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:numStars="1"
+            android:layout_marginTop="10dp"
+            />
+
+        <RatingBar
+            android:id="@+id/star2_rating_bar"
+            style="@style/CustomRatingBarStyle"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:numStars="1"
+            android:layout_marginTop="-40dp"
+            android:layout_marginEnd="-60dp"
+            />
+        <RatingBar
+            android:id="@+id/star3_rating_bar"
+            style="@style/CustomRatingBarStyle"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:numStars="1"
+            android:layout_marginTop="-65dp"
+            android:layout_marginEnd="60dp"
+            />
+        <RatingBar
+            android:id="@+id/star4_rating_bar"
+            style="@style/CustomRatingBarStyle"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:numStars="1"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="-45dp"
+            />
+        <RatingBar
+            android:id="@+id/star5_rating_bar"
+            style="@style/CustomRatingBarStyle"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:numStars="1"
+            android:layout_marginTop="-65dp"
+            android:layout_marginEnd="120dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rate_btn"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:foreground="@drawable/ripple_effect"
+            android:background="@drawable/button_rounded"
+            android:text="Rate"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

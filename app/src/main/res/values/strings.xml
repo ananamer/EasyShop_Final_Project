@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Easy Shop</string>
+    <string name="user_name">User Name</string>
+    <string name="pass">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="new_sign_up">New? Sign up now!</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name </string>
+    <string name="last_name">Last Name </string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="create_account">create account</string>
+    <string name="shekel">shekel</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="add_to_cart">add to cart</string>
+    <string name="items">Items</string>
+    <string name="men">Men</string>
+    <string name="women">Women</string>
+    <string name="bathroom">Bathroom</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="babies">Babies</string>
+    <string name="decoration">Decoration</string>
+    <string name="garden">Garden</string>
+    <string name="other">Other</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="my_account">My Account</string>
+    <string name="shop">Shop</string>
+    <string name="my_cart">My Cart</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="name_info">at least 3 characters, and maximum 10 characters</string>
+    <string name="password_info">at least 6 characters, and maximum 15 characters</string>
+</resources>

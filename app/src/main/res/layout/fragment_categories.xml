@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".selected_action_activity_fragments.Categories">
+
+    <TextView
+        android:id="@+id/categories_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Categories"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/categories_grid_view"
+        android:numColumns="2"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/categories_text"
+        android:verticalSpacing="20dp"
+        android:horizontalSpacing="20dp"/>
+
+</RelativeLayout>
